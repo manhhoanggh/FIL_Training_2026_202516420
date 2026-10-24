@@ -1,0 +1,36 @@
+ID  TIMESTAMP           LEVEL    USER     ROLE   IP_ADDRESS     STATUS  LATENCY  ACTION
+001 2026-10-02T08:00:01 [INFO]   alice    admin  192.168.1.10   200     45ms     LOGIN_SUCCESS
+002 2026-10-02T08:01:15 [WARN]   bob      user   192.168.1.11   401     120ms    PASSWORD_RETRY
+003 2026-10-02T08:02:03 [INFO]   charlie  user   192.168.1.12   200     88ms     FILE_DOWNLOAD
+004 2026-10-02T08:03:22 [ERROR]  david    dev    192.168.1.13   CRITICAL_FAIL     5400ms   DATABASE_TIMEOUT
+005 2026-10-02T08:04:10 [INFO]   alice    admin  192.168.1.10   200     32ms     PAGE_VIEW
+006 2026-10-02T08:05:00 [WARN]   eve      guest  192.168.1.14   403     15ms     PERMISSION_DENIED
+007 2026-10-02T08:06:18 [ERROR]  frank    dev    192.168.1.15   CRITICAL_FAIL     1200ms   CONNECTION_REFUSED
+008 2026-10-02T08:07:44 [INFO]   grace    user   192.168.1.16   200     210ms    FILE_UPLOAD
+009 2026-10-02T08:08:30 [INFO]   bob      user   192.168.1.11   200     55ms     LOGIN_SUCCESS
+010 2026-10-02T08:09:12 [WARN]   heidi    guest  192.168.1.17   404     10ms     PAGE_NOT_FOUND
+011 2026-10-02T08:10:05 [ERROR]  alice    admin  192.168.1.10   502     3100ms   BAD_GATEWAY
+012 2026-10-02T08:11:20 [INFO]   charlie  user   192.168.1.12   200     40ms     LOGOUT
+013 2026-10-02T08:12:45 [INFO]   david    dev    192.168.1.13   200     60ms     LOGIN_SUCCESS
+014 2026-10-02T08:13:01 [WARN]   eve      guest  192.168.1.14   401     18ms     INVALID_TOKEN
+015 2026-10-02T08:14:33 [ERROR]  frank    dev    192.168.1.15   CRITICAL_FAIL     8900ms   OUT_OF_MEMORY
+016 2026-10-02T08:15:10 [INFO]   grace    user   192.168.1.16   200     25ms     PAGE_VIEW
+017 2026-10-02T08:16:00 [INFO]   heidi    guest  192.168.1.17   200     70ms     LOGIN_SUCCESS
+018 2026-10-02T08:17:25 [WARN]   alice    admin  192.168.1.10   429     5ms      TOO_MANY_REQUESTS
+019 2026-10-02T08:18:40 [ERROR]  bob      user   192.168.1.11   CRITICAL_FAIL     4200ms   INTERNAL_SERVER_ERROR
+020 2026-10-02T08:19:55 [INFO]   charlie  user   192.168.1.12   200     95ms     FILE_DELETE
+021 2026-10-02T08:20:10 [INFO]   david    dev    192.168.1.13   200     30ms     PAGE_VIEW
+022 2026-10-02T08:21:05 [WARN]   eve      guest  192.168.1.14   403     12ms     ACCESS_RESTRICTED
+023 2026-10-02T08:22:15 [ERROR]  frank    dev    192.168.1.15   503     6100ms   SERVICE_UNAVAILABLE
+024 2026-10-02T08:23:48 [INFO]   grace    user   192.168.1.16   200     50ms     LOGOUT
+025 2026-10-02T08:25:00 [FATAL]  system   root   127.0.0.1      CRITICAL_FAIL     9999ms   DISK_FULLHello World
+myname
+myname
+myname
+myname
+myname
+myname
+myname
+myname
+myname
+myname
